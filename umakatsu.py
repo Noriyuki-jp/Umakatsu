@@ -2,7 +2,6 @@
 """
 Created on Wed Jul 17 08:35:48 2024
 
-Thank you shu
 """
 
 # インポートするライブラリ
@@ -450,7 +449,6 @@ yJiku+=(yJikuAdd*3)
 tk.Label(window, text="INETID").place(x=xJiku1,y=yJiku)
 entInet_id = tk.Entry(window)
 entInet_id.place(x=xJiku2,y=yJiku)
-entInet_id.insert(tk.END, '8KU4P5CB') #todo最終的には消す
 
 # 閉じるボタン
 btnClose = tk.Button(window, text="閉じる", command=btn_Close, width=18).place(x=xJiku3,y=yJiku)
@@ -460,7 +458,6 @@ yJiku+=yJikuAdd
 tk.Label(window, text="加入者番号").place(x=xJiku1,y=yJiku)
 entKanyusha_no = tk.Entry(window)
 entKanyusha_no.place(x=xJiku2,y=yJiku)
-entKanyusha_no.insert(tk.END, '65032367')
 
 # 入金ボタン
 tk.Button(window, text="入金", command=btn_Deposit, width=18).place(x=xJiku3,y=yJiku)
@@ -470,7 +467,6 @@ yJiku+=yJikuAdd
 tk.Label(window, text="PATのパスワード").place(x=xJiku1,y=yJiku)
 entPassword_pat = tk.Entry(show='*')
 entPassword_pat.place(x=xJiku2,y=yJiku)
-entPassword_pat.insert(tk.END, '1210')
 
 # 馬券購入ボタン
 tk.Button(window, text="馬券購入", command=btn_Buy, width=18).place(x=xJiku3,y=yJiku)
@@ -480,7 +476,6 @@ yJiku+=yJikuAdd
 tk.Label(window, text="P-RAS番号").place(x=xJiku1,y=yJiku)
 entPras_no = tk.Entry(window)
 entPras_no.place(x=xJiku2,y=yJiku)
-entPras_no.insert(tk.END, '2257')
 
 # 競馬AI 実行ボタン
 btnClose = tk.Button(window, text="競馬AI 実行", command=btn_AI, width=18, height=7, bg="sky blue").place(x=xJiku3,y=yJiku)
@@ -490,21 +485,18 @@ yJiku+=yJikuAdd
 tk.Label(window, text="入金金額").place(x=xJiku1,y=yJiku)
 entDeposit_money = tk.Entry(window)
 entDeposit_money.place(x=xJiku2,y=yJiku)
-entDeposit_money.insert(tk.END, '100')
 
 # 馬券の購入枚数
 yJiku+=yJikuAdd
 tk.Label(window, text="購入枚数").place(x=xJiku1,y=yJiku)
 entTicket_nm = tk.Entry(window)
 entTicket_nm.place(x=xJiku2,y=yJiku)
-entTicket_nm.insert(tk.END, '2')
 
 # seleniumの待機時間[sec]
 yJiku+=yJikuAdd
 tk.Label(window, text="待機時間(秒)").place(x=xJiku1,y=yJiku)
 entWait = tk.Entry(window)
 entWait.place(x=xJiku2,y=yJiku)
-entWait.insert(tk.END, '1')
 
 # ヘッドレスモードチェックリスト
 yJiku+=yJikuAdd
