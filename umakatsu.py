@@ -2,6 +2,7 @@
 """
 Created on Wed Jul 17 08:35:48 2024
 
+Thank you shu
 """
 
 # インポートするライブラリ
